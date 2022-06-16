@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Fashion Suite</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
+    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- <div class="left">
+        <a href="/home"><img src="/images/img_logo.png"></a>
+    </div> -->
+    <div class="mid">
+        <ul class="navbar">
+            <li><%- include('header') %></li>
+        </ul>
+    </div>
+    <h2 class="order1">Congratulations, <%= msg1 %></h2>
+    <h2 class="order"><i class="fa fa-taxi"></i> Your order is placed successfully</h2>
+    <h2 class="order2">Rate Us</h2>
+    <div class="center">
+        <div class="stars">
+            <input type="radio" id="five" name="rate" value="5">
+            <label for="five"></label>
+            <input type="radio" id="four" name="rate" value="4">
+            <label for="four"></label>
+            <input type="radio" id="three" name="rate" value="3">
+            <label for="three"></label>
+            <input type="radio" id="two" name="rate" value="2">
+            <label for="two"></label>
+            <input type="radio" id="one" name="rate" value="1">
+            <label for="one"></label>
+            <span class="result"></span>
+        </div>
+    </div>
+    <div class="container">
+        <form action="/process2" method="post">
+            <div class="form_group1">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+
+    <!-- <div class="right">
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <form class="btn" action="/process" method="post">
+            <button style="font-size:15px"><i class="fa fa-phone"></i>&nbsp;Contact Us for Home Deliveries</button>
+        </form>
+    </div> -->
+</body>
+</html>

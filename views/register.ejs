@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Fashion Suite</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="en" />
+    <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="mid">
+        <ul class="navbar">
+            <li><%- include('header') %></li>
+        </ul>
+    </div>
+    <table>
+        <tr>
+            <td><strong>Content</strong></td>
+            <td><strong>Input values</strong></td>
+        </tr>
+        <tr>
+            <td>First Name</td>
+            <td><%= fname %></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><%= lname %></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><%= pnum %></td>
+        </tr>
+        <tr>
+            <td>Email Address</td>
+            <td><%= email %></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><%= pass %></td>
+        </tr>
+        <tr>
+            <td>Confirm Password</td>
+            <td><%= cpass %></td>
+        </tr>
+    </table>
+    <h2>Congratulations, <%= fname %></h2>
+    <h2>You are registered successfully</h2>
+</body>

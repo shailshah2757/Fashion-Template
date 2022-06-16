@@ -1,0 +1,506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cinzel', serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('/images/img_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 1555px;
+    color: white;
+}
+
+/* body h1{
+    margin-left: 5.5rem;
+} */
+
+.mid .about {
+    margin-left: 5.5rem;
+}
+
+body p {
+    margin: 1rem;
+    /* max-width: 5px; */
+    margin-right: 15rem;
+    text-align: center;
+    /* margin: 50rem; */
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+}
+
+.left img {
+    width: 100px;
+}
+
+.left1 {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 270px;
+}
+.left1 img {
+    width: 190px;
+}
+
+.left2 {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 505px;
+}
+
+.left2 img {
+    width: 190px;
+}
+
+.left3 {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 740px;
+}
+
+.left3 img {
+    width: 190px;
+}
+
+.left4 {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 370px;
+}
+
+.left4 img {
+    width: 190px;
+}
+
+.mid {
+    display: block;
+    width: 47%;
+    margin: 20px auto;
+    margin-right: 14rem;
+}
+
+.mid1 {
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+    margin-right: 14rem;
+}
+
+.mid h2 {
+    display: block;
+    width: 50%;
+    margin-right: 15rem;
+    /* margin: 20px auto; */
+    margin-top: 3rem;
+}
+
+.mid .help {
+    margin-top: 2rem;
+}
+
+.mid h3 {
+    margin-top: 1rem;
+    display: block;
+    width: 47%;
+    margin-left: 6.5rem;
+    /* text-align: center; */
+    /* margin-right: 15rem; */
+}
+
+.mid p {
+    margin-left: -6rem;
+    margin-top: 0.3rem;
+}
+
+.mid .add {
+    margin-left: -7.5rem;
+}
+
+.problem {
+    margin-left: 38rem;
+    margin-top: 2rem;
+}
+
+.problem1 {
+    margin-top: 15rem;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 20px;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    color: white;
+    display: inline-block;
+    font-size: 17px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 35px 25px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: goldenrod;
+}
+
+form.example input[type=text]{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: right;
+    width: 60%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: right;
+    width: 20%;
+    padding: 5px;
+    background: #852a2a;
+    color: gray;
+    font-size: 17px;
+    border: 1px solid black;
+    cursor: pointer;
+    height: 43px;
+}
+
+form.example button:hover {
+    background: #6d2121;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+
+.btn {
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+form.btn button {
+    font-family: 'Cinzel', serif;
+    height: auto;
+    padding: 3px;
+    background: transparent;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    border: transparent;
+}
+
+form.btn button:hover {
+    color: goldenrod;
+}
+
+form.btn::after {
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+
+.btn1 {
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+form.btn1 button {
+    font-family: 'Cinzel', serif;
+    height: auto;
+    padding: 3px;
+    background: transparent;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    border: transparent;
+    /* display: none; */
+}
+
+form.btn1 button:hover {
+    color: goldenrod;
+}
+
+form.btn1::after {
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+
+
+.container, .container1{
+    margin: 85px 80px;
+    padding: 75px;
+    width: 92%;
+    display: block;
+    border-radius: 25px;
+    font-size: 10px;
+}
+
+.form_group input {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    display: block;
+    width: 450px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.form_group [type=submit] {
+    cursor: pointer;
+}
+
+.form_group1 input {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin-left: 23rem;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: -35px;
+}
+
+.form_group1 [type=submit] {
+    cursor: pointer;
+}
+
+.form_group2 input {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin-left: -3.5rem;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.form_group2 [type=submit] {
+    cursor: pointer;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container1 h1 {
+    text-align: center;
+}
+.social-menu ul{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    padding: 0px;
+    margin: 0px;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+.social-menu ul li .fa{
+    font-size: 25px;
+    line-height: 40px;
+    color: #000;
+}
+.social-menu ul li .fa:hover{
+    color: #fff;
+}
+.social-menu ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #fff;
+    text-align: center;
+    transition: 0.1s;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover{
+    transform: translate(0, -5px);
+}
+.social-menu ul li:nth-child(1) a:hover{
+    background-color: #d34836;
+}
+.social-menu ul li:nth-child(2) a:hover{
+    background-color: #1877F2;
+}
+.social-menu ul li:nth-child(3) a:hover{
+    background-color: #555555;
+}
+.social-menu ul li:nth-child(4) a:hover{
+    background-color: #1DA1F2;
+}
+
+.order {
+    /* margin-left: 5rem; */
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.order1 {
+    text-align: center;
+    margin-top: 10rem;
+    /* margin-bottom: 4rem; */
+}
+
+.order2 {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.order3 {
+    margin-left: -0.25rem;
+    margin-top: 1rem;
+}
+
+.center {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, 50%);
+}
+
+.center .stars {
+    height: 150px;
+    width: 450px;
+    /* background: black; */
+    text-align: center;
+}
+
+.stars input {
+    display: none;
+}
+
+.stars label {
+    float: right;
+    font-size: 40px;
+    color: lightgray;
+    margin: 0 15px;
+    text-shadow: 1px 1px #bbb;
+}
+
+.stars label:before{
+    content: '★';
+}
+
+.stars input:checked ~ label{
+    color: gold;
+    text-shadow: 1px 1px #c60;
+}
+
+.stars:not(:checked) > label:hover, .stars:not(:checked) > label:hover ~ label {
+    color: gold;
+}
+
+.stars input:checked > label:hover, .stars input:checked > label:hover ~ label {
+    color: gold;
+    text-shadow: 1px 1px goldenrod;
+}
+
+.stars .result:before {
+    position: absolute;
+    content: '';
+    left: 65%;
+    transform: translateX(-50%);
+    bottom: 60px;
+    font-size: 25px;
+    font-weight: 500;
+    color: gold;
+    font-family: 'Cinzel', serif;
+    display: none;
+}
+
+.stars input:checked ~ .result:before {
+    display: block;
+}
+
+.stars #five:checked ~ .result:before {
+    content: "I love it😍";
+}
+
+.stars #four:checked ~ .result:before {
+    content: "I like it🤩";
+}
+
+.stars #three:checked ~ .result:before {
+    content: "It's good😁";
+}
+
+.stars #two:checked ~ .result:before {
+    content: "It's OK🙂";
+}
+
+.stars #one:checked ~ .result:before {
+    content: "I hate it😤";
+}
+
+.review {
+    margin-left: 150px;
+    /* margin-bottom: 10px; */
+    text-align: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90rem;
+    text-align: center;
+    height: 43rem;
+    font-size: 2rem;
+    border-style: hidden;
+}
+
+body h2 {
+    /* margin-left: 15rem; */
+    text-align: center;
+}
+
+.fashion {
+    margin-left: 15rem;
+    margin-top: 15rem;
+}
+
+.fashion1 {
+    margin-left: 15rem;
+}
+
+/* .left1, .left2, .left3, .left4::-webkit-scrollbar {
+    display: none;
+} */
